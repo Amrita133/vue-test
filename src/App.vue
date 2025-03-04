@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <TestFirst/>
+    <!-- <TestFirst/> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <FirstCode/> -->
-    <TestTwo/>
+    <!-- <TestTwo/> -->
+
+    <TestThree/>
   </div>
 </template>
 
@@ -12,14 +14,17 @@
 
 // import FirstCode from './components/FirstCode.vue'
 // import TestFirst from './components/TestFirst.vue'
-import TestTwo from './components/TestTwo.vue'
+// import TestTwo from './components/TestTwo.vue'
+import TestThree from './components/TestThree.vue'
+
 
 export default {
   name: 'App',
   components: {
     // TestFirst,
     // FirstCode,
-     TestTwo
+    // TestTwo,
+    TestThree,
 
   }
 }

@@ -1,22 +1,19 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <TestFirst/>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <FirstCode/>
+    <Test-third/>
   </div>
 </template>
 
 <script>
+import TestThird from './components/Test-third.vue'
 
-import FirstCode from './components/FirstCode.vue'
-import TestFirst from './components/TestFirst.vue'
+
 
 export default {
   name: 'App',
   components: {
-    TestFirst,
-    FirstCode,
+TestThird
 
   }
 }

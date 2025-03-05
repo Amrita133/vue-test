@@ -1,20 +1,18 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <FirstCode/>
+    <test-eight/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-import FirstCode from './components/FirstCode.vue'
-
+import TestEight from './components/Test-eight.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    FirstCode,
+    TestEight
+  
+
   }
 }
 </script>

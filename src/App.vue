@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <FirstCode/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+ 
+ <list-data/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-import FirstCode from './components/FirstCode.vue'
+
+import ListData from './components/ListData.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    FirstCode,
+   ListData
   }
 }
 </script>

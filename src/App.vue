@@ -1,22 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <TestFirst/>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <FirstCode/>
+     <timer-comp/>
   </div>
 </template>
 
 <script>
-
-import FirstCode from './components/FirstCode.vue'
-import TestFirst from './components/TestFirst.vue'
-
+import TimerComp from './components/TimerComp.vue'
 export default {
   name: 'App',
   components: {
-    TestFirst,
-    FirstCode,
+    TimerComp
+ 
 
   }
 }

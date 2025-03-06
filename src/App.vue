@@ -1,34 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <TestFirst/>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <FirstCode/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+   <card-c/>
   </div>
 </template>
 
 <script>
-
-import FirstCode from './components/FirstCode.vue'
-import TestFirst from './components/TestFirst.vue'
-
+import CardC from './components/Card-C.vue'
 export default {
   name: 'App',
   components: {
-    TestFirst,
-    FirstCode,
+ CardC
 
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#app{
+  margin-top: 100px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 </style>

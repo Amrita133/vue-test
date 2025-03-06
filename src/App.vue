@@ -1,22 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <TestFirst/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <TestFirst/> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <FirstCode/>
+    <!-- <FirstCode/> -->
+
+    <assignment-second/>
   </div>
 </template>
 
 <script>
+import AssignmentSecond from './components/AssignmentSecond.vue'
 
-import FirstCode from './components/FirstCode.vue'
-import TestFirst from './components/TestFirst.vue'
+// import FirstCode from './components/FirstCode.vue'
+// import TestFirst from './components/TestFirst.vue'
 
 export default {
   name: 'App',
   components: {
-    TestFirst,
-    FirstCode,
+    AssignmentSecond
+    // TestFirst,
+    // FirstCode,
 
   }
 }
